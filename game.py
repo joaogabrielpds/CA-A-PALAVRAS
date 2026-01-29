@@ -1,8 +1,8 @@
 import random
 import string
 
-TAMANHO = 11
-PALAVRAS = ["PYTHON", "JAVA", "HTML", "CSS", "LOGICA", "KOTLIN"]
+TAMANHO = 14
+PALAVRAS = ["PYTHON", "JAVA", "HTML", "CSS", "LOGICA", "ANDROID" , "IOS" , "MOUSE"]
 
 class CacaPalavras:
     def __init__(self):

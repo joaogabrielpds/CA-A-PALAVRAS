@@ -2,7 +2,7 @@ import random
 import string
 
 TAMANHO = 16
-PALAVRAS = ["PYTHON", "JAVA", "HTML", "CSS", "LOGICA", "ANDROID" , "IOS" , "MOUSE" , "WEB" , "SISTEMA"]
+PALAVRAS = ["PYTHON", "JAVA", "HTML", "CSS", "LOGICA", "ANDROID" , "IOS" , "MOUSE" , "WEB" , ""]
 
 class CacaPalavras:
     def __init__(self):
@@ -59,3 +59,9 @@ class CacaPalavras:
 
         self.encontradas.append(palavra)
         return True
+    def verificar_por_selecao(self, palavra):
+        palavra = palavra.upper()
+        if palavra in PALAVRAS and palavra not in self.encontradas:
+            self.encontradas.append(palavra)
+        return True
+        return False

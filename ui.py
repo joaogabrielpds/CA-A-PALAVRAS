@@ -1,6 +1,8 @@
 import tkinter as tk
 from tkinter import messagebox
 from game import CacaPalavras, PALAVRAS, TAMANHO
+#configuração visual
+COR_FUNDO = "#1e1e2f"
 
 class Interface:
     def __init__(self, root):

@@ -15,7 +15,7 @@ class Interface:
 
     def _criar_grid(self):
         frame = tk.Frame(self.root)
-        frame.grid(row=0, column=0, padx=10, pady=10)
+        frame.grid(row=0, column=0, padx=15, pady=15)
 
         for i in range(TAMANHO):
             for j in range(TAMANHO):
